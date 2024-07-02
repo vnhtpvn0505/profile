@@ -18,7 +18,7 @@ const Home = () => {
         <Hero data={heroData} />
         <About data={aboutData} />
         <Experience data={experienceData} />
-        {/* <Service data={serviceData} /> */}
+        <Service data={serviceData} />
         <Portfolio data={portfolioData} />
         {/* <Testimonial data={sliderData} /> */}
         {/* <Blog data={blogData} /> */}

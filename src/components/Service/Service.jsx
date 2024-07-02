@@ -3,9 +3,9 @@ import SectionHeading from '../SectionHeading/SectionHeading';
 
 const Service = ({ data }) => {
   return (
-    <section id="services" className="section services-section bg-dark">
+    <section id="educations" className="section services-section bg-dark">
       <div className="container">
-        <SectionHeading title="My Specialties" subTitle="My Service" />
+        <SectionHeading title="My Studies" subTitle="Education" />
         <div className="accordion accordion-flush" id="accordion_services">
           {data.map((element, index) => (
             <div
@@ -39,7 +39,7 @@ const Service = ({ data }) => {
               >
                 <div className="accordion-body">
                   <div className="row gy-4">
-                    <div className="col-sm-6 col-md-4">
+                    {/* <div className="col-sm-6 col-md-4">
                       <div className="s-img">
                         <img
                           src={element.imgLink}
@@ -47,9 +47,9 @@ const Service = ({ data }) => {
                           alt="Service Image"
                         />
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-sm-6 col-md-8">
-                      <h3>{element.title}</h3>
+                      <h3>{element.heading}</h3>
                       <div className="s-text">{element.text}</div>
                     </div>
                   </div>

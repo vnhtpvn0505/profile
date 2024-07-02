@@ -88,6 +88,16 @@ const Header = ({ data }) => {
           </li>
           <li>
             <ScrollLink
+              to="educations"
+              spy={true}
+              duration={500}
+              onClick={() => setMobileToggle(false)}
+            >
+              Education
+            </ScrollLink>
+          </li>
+          <li>
+            <ScrollLink
               to="work"
               spy={true}
               duration={500}
