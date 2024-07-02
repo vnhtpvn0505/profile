@@ -30,7 +30,7 @@ const Modal = ({ img, title, date, subTitle, paraList, modalClose }) => {
                 {socialData.map((element, index) => (
                   <li key={index}>
                     <a href={element.link}>
-                      <Icon icon={`bi:${element.icon}`} />
+                      <Icon icon={`mdi:${element.icon}`} />
                     </a>
                   </li>
                 ))}

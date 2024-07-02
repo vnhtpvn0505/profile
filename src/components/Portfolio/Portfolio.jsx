@@ -38,10 +38,14 @@ const Portfolio = ({ data }) => {
                     <div className="work-text">
                       <h6>{element.subTitle}</h6>
                       <h4>{element.title}</h4>
-                      <div className="btn-bar">
+                      <div className="btn-bar row">
                         <a className="gallery-link" onClick={() => getData(element.ImgLink, element.title, element.subTitle, element.paragraphList)}>
                           <Icon icon="bi:arrow-up-right" />
                         </a>
+                        <a className="gallery-link" href={element.link} >
+                          <Icon icon="bi:globe" />
+                        </a>
+                        
                       </div>
                     </div>
                   </div>

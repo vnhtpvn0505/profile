@@ -4,90 +4,97 @@
     "logoLight": "/images/logo-light.svg"
   },
   "heroData": {
-    "title": "My name<br />is <b>Lilon</b> <span><br />Macwan...</span>",
-    "subTitle": "<span>Web Designer</span> based in <span>USA</span>",
-    "ImgLink": "/images/home-banner.png",
-    "phone": "+123 45 666 7788",
-    "email": "mccandesigner@gmail.com",
+    "title": "My name<br />is <b>Huynh</b> <span><br />Tan Phuc...</span>",
+    "subTitle": "<span>UI/UX Designer, Product Design</span>  <br/>based in <span>HCM</span>",
+     "ImgLink": "/images/portrait.jpg",
+     
+    "phone": "+84 0967053394",
+    "email": "vnhtpvn0505@gmail.com",
     "btnText": "Work with me",
     "socialData": [
       {
-        "link": "",
-        "icon": "dribbble"
+        "link": "https://www.behance.net/huynhphuv",
+        "icon": "behance"
       },
       {
-        "link": "",
-        "icon": "instagram"
+        "link": "https://www.linkedin.com/in/phuchuynh05/",
+        "icon": "linkedin"
       },
       {
-        "link": "",
+        "link": "https://www.facebook.com/huynh.phuc.7121",
         "icon": "facebook"
       }
     ]
   },
   "aboutData": {
     "aboutLeft": {
-      "ImgLink": "/images/about-banner.png",
-      "name": "Lilon Macwan",
-      "designation": "Web Designer <span>based in</span> USA",
-      "resumeCv": "/Resume.pdf"
+      "ImgLink": "/images/about-banner-img.png",
+      "name": "Phuc Huynh",
+      "designation": "UI/UX Design, Product Design <span>based in</span> Viet Nam",
+      "resumeCv": "https://drive.google.com/file/d/1q76earbvTePlQQI7cmaYtuCbJ_EyvgaJ/view?usp=sharing"
     },
     "aboutRight": {
-      "aboutText": "Born in 2000, AB type living in USA. We provide on-screen design for websites and apps, as well as front-end implementation. We will continue to pursue a wide range of expressions and better code by pursuing our “likes”.",
+      "aboutText": " I'm a passionate UI/UX designer and front-end developer with a lifelong love for creating intuitive and visually appealing digital experiences.  Since 1994, I've honed my skills in both design and code, allowing me to bridge the gap between aesthetics and functionality.",
       "contactInfo": [
         {
           "icon": "phone",
-          "data": "+123 45 666 7788"
+          "data": "+84 967053394"
         },
         {
           "icon": "person",
-          "data": "Lilon Macwan"
+          "data": "Phuc Huynh"
         },
         {
           "icon": "envelope",
-          "data": "lilonesigner@gmail.com"
+          "data": "vnhtpvn@gmail.com"
         },
         {
           "icon": "map",
-          "data": "California, USA"
+          "data": "HCM, Vietnam"
         }
       ],
       "archivement": [
         {
-          "number": "10+",
+          "number": "2,5+",
           "meta": "Years <br /> experience...",
-          "text": "Hello there! My name is <span>Lilon Macwan</span>. I am a web designer & developer, and Im very passionate and dedicated to my work."
+          "text": "Hi there! I'm <span>Phuc Huynh</span>, a UI/UX designer & developer with a proven track record of delivering visually appealing and highly functional websites and apps. "
         },
         {
-          "number": "50+",
-          "meta": "Clients <br /> Worldwide...",
-          "text": "With 10+ years experience as a professional designer, I have acquired the skills to make your project a success."
+          "number": "5+",
+          "meta": "Project <br />  UI/UX Design...",
+          "text": " I'm dedicated to understanding user needs and translating them into intuitive, engaging interfaces. I'm proficient in  software development & ui/ux design. "
         }
       ],
-      "note": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sed sit ultrices et sed metus sollicitudin.”"
+      "note": "“CREATIVE IN LAW”"
     }
   },
   "experienceData": {
-    "text": "Hello there! My name is Lilon Macwan. I am a web designer & developer, and Im very passionate and dedicated to my work.",
-    "resumeCv": "/Resume.pdf",
+    "text": "Passionate UI/UX Designer & Developer. Dedicated to Crafting Exceptional Digital Experiences.",
+    "resumeCv": "https://drive.google.com/file/d/1q76earbvTePlQQI7cmaYtuCbJ_EyvgaJ/view?usp=sharing",
     "experience": [
       {
-        "start": "2020",
+        "start": "Jan 2024",
         "end": "Present",
-        "title": "LEAD UI/UX DESIGNER",
-        "subtitle": "UI/UX Lead"
+        "title": "UI/UX Design",
+        "subtitle": "Freelancer"
+      },  
+      {
+        "start": "Jun 2022",
+        "end": "Jan 2024",
+        "title": " Product Design, Bussiness Analytics",
+        "subtitle": "Luckytech"
+      },
+      {
+        "start": "Jun 2021",
+        "end": "Nov 2021",
+        "title": "Junior Web Designer",
+        "subtitle": "Time Universal"
       },
       {
         "start": "2017",
-        "end": "2018",
-        "title": "SENIOR UI/UX DESIGNER",
-        "subtitle": "UI/UX Designer"
-      },
-      {
-        "start": "2015",
-        "end": "2017",
-        "title": "WEB DESIGN AND DEVELOPER",
-        "subtitle": "Jr. UI/UX Designer"
+        "end": "2020",
+        "title": "Sofware Engineer  ",
+        "subtitle": "Kyanon Digital"
       }
     ]
   },
@@ -123,13 +130,40 @@
   ],
   "portfolioData": [
     {
-      "ImgLink": "/images/services-1.jpg",
-      "subTitle": "UX case study",
-      "title": "Processor Research",
+      "ImgLink": "/images/project/opw.png",
+      "subTitle": "Product Design",
+      "title": "OPENWORLDNFT",
+      "link": "https://openworldnft.io/",
+      "paragraphList": [
+        {
+          "text": "NFT, blockchain, marketplace"
+        }
+        
+      ]
+    },
+    {
+      "ImgLink": "/images/project/mamamia.png",
+      "subTitle": "Web Design",
+      "title": "Mamamia",
+      "link": "https://mammamia.vn/",
+      "paragraphList": [
+        {
+          "text": "MAMMA MIA SỐNG NÂNG TẦM GIÁ TRỊ - CHUẨN PHONG CÁCH QUỐC TẾ"
+        },
+        {
+          "text": "Thiết bị vệ sinh, thiết bị phòng tắm, thiết bị nhà bếp"
+        }
+        
+      ]
+    },
+    {
+      "ImgLink": "/images/project/lf.png",
+      "subTitle": "UX Design, Product Design",
+      "title": "Leapfit",
       "link": "",
       "paragraphList": [
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "text": "Fitness Platform Appication"
         },
         {
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -143,59 +177,13 @@
       ]
     },
     {
-      "ImgLink": "/images/services-2.jpg",
-      "subTitle": "UX case study",
-      "title": "Artificial Research",
-      "link": "",
+      "ImgLink": "/images/project/oclantics.png",
+      "subTitle": "Product Design",
+      "title": "Octlantics",
+      "link": "https://www.figma.com/proto/zrEBThoXBFcZHfwcanFc2B/Octlantis-Productions?page-id=1%3A7&node-id=378-9260&starting-point-node-id=378%3A9260&t=W7CPu5M4hRTzkG27-1",
       "paragraphList": [
         {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-      ]
-    },
-    {
-      "ImgLink": "/images/services-3.jpg",
-      "subTitle": "UX case study",
-      "title": "Website Research",
-      "link": "",
-      "paragraphList": [
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-      ]
-    },
-    {
-      "ImgLink": "/images/services-4.jpg",
-      "subTitle": "UX case study",
-      "title": "Robotics Research",
-      "link": "",
-      "paragraphList": [
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
-        {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          "text": "Gamehub, NFT, Platform"
         },
         {
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -306,8 +294,8 @@
       },
       "info": [
         {
-          "imgLink": "/images/avatar-1.jpg",
-          "name": "Ema Watson",
+          "imgLink": "/images/avatar-01.png",
+          "name": "Phuc Huynh",
           "designation": "Chief Executive Officer, Brazil",
           "text": "File storage made easy – including powerful features you won’t find anywhere else. Whether          you’re."
         },
@@ -381,20 +369,15 @@
   "contactData": {
     "contactInfo": [
       {
-        "icon": "chat-left-dots-fill",
-        "title": "Chat to us",
-        "text": "Our friendly team is there to help.",
-        "emailLink": "info@domainname.com"
-      },
-      {
-        "icon": "compass",
-        "title": "Visit us",
-        "text": "Come say hello at ur office HQ. Warnwe Park Streetperrine, FL 33157 New York City"
+        "icon": "gmail",
+        "title": "Contact email",
+        "text": " ",
+        "emailLink": "vnhtpvn0505@gmail.com"
       },
       {
         "icon": "phone",
         "title": "Call us",
-        "text": "Mon-Fri from 8am to 5pm. +01 (555) 000-0000"
+        "text": "(+84) 0967053394"
       }
     ],
     "contactForm": {
@@ -403,25 +386,23 @@
     }
   },
   "footerData": {
-    "ImgLink": "/images/about-banner.png",
-    "name": "lilon williamson"
+    "ImgLink": "/images/about-banner-img.png",
+    "name": "Phuc Huynh"
   },
   "socialData": [
     {
-      "icon": "twitter",
-      "link": ""
+      "link": "https://www.behance.net/huynhphuv",
+      "icon": "behance"
     },
     {
-      "icon": "instagram",
-      "link": ""
+      "link": "https://www.linkedin.com/in/phuchuynh05/",
+      "icon": "linkedin"
     },
     {
-      "icon": "facebook",
-      "link": ""
-    },
-    {
-      "icon": "pinterest",
-      "link": ""
+      "link": "https://www.facebook.com/huynh.phuc.7121",
+      "icon": "facebook"
     }
+    
+    
   ]
 }

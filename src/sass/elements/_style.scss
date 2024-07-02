@@ -5,7 +5,7 @@ body {
   color: var(--px-text) !important;
   font-family: $px-font;
   --bs-body-font-weight: 400 !important;
-  --bs-body-font-size: 1rem !important;
+  --bs-body-font-size: 0.75rem !important;
   --bs-body-line-height: 1.6 !important;
   overflow-x: hidden !important;
 }
@@ -202,8 +202,8 @@ a {
 .about-contact {
   p {
     margin: 0 0 15px;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 400;
     @include down-sm {
       font-size: 16px;
     }
@@ -234,14 +234,14 @@ a {
     }
     span {
       flex: 1;
-      font-size: 18px;
-      font-weight: 700;
+      font-size: 16px;
+      font-weight: 500;
       line-height: 1.2;
       padding-left: 15px;
     }
   }
   .lead {
-    font-size: 18px;
+    font-size: 16px;
     span {
       color: var(--px-theme);
     }
@@ -285,7 +285,7 @@ a {
     margin: 0;
     p {
       max-width: 370px;
-      font-size: 18px;
+      font-size: 16px;
       @include down-md {
         max-width: 100%;
       }
@@ -321,7 +321,7 @@ a {
   .r-meta {
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 700;
     padding-bottom: 12px;
     @include down-sm {
@@ -330,10 +330,10 @@ a {
   }
   h5 {
     margin: 0;
-    font-size: 32px;
+    font-size: 24px;
     color: var(--px-white);
-    font-weight: 700;
-    text-transform: uppercase;
+    // font-weight: 700;
+    // text-transform: uppercase;
     @include down-sm {
       font-size: 22px;
     }
@@ -474,8 +474,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   .work-img {
-    flex: 0 0 40%;
-    width: 40%;
+    flex: 0 0 80%;
+    width: 80%;
     cursor: pointer;
     @include down-sm {
       flex: 0 0 100%;
@@ -485,6 +485,7 @@ a {
   .work-text {
     flex: 0 0 60%;
     width: 60%;
+    padding-top: 2%;
     padding-left: 20px;
     padding-right: 8%;
     display: flex;
@@ -495,7 +496,7 @@ a {
       padding: 20px 0 0;
     }
     h4 {
-      font-size: 30px;
+      font-size: 24px;
       font-weight: 700;
       @include down-sm {
         font-size: 24px;
@@ -505,15 +506,15 @@ a {
       }
     }
     .btn-bar {
-      margin-top: auto;
+      margin-top: 4px;
       a {
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
         color: var(--px-white);
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        font-size: 27px;
+        font-size: 24px;
         line-height: 1;
         cursor: pointer;
       }
@@ -700,9 +701,9 @@ a {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(270.16deg, var(--px-theme-2) 5.74%, var(--px-theme) 92.05%);
-      color: var(--px-white);
-      font-size: 20px;
+      // background: linear-gradient(270.16deg, var(--px-theme-2) 5.74%, var(--px-theme) 92.05%);
+      color: var(--px-theme);
+      font-size: 40px;
     }
     .text {
       padding-left: 20px;
@@ -718,7 +719,7 @@ a {
       }
     }
     + li {
-      margin-top: 20px;
+      // margin-right: 20px;
     }
   }
 }

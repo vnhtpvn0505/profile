@@ -54,15 +54,15 @@ const Contact = ({ data }) => {
       className="section contact-section"
     >
       <div className="container">
-        <div className="row gy-5">
-          <div className="col-lg-5">
+        <div className="row ">
+          <div className="row ">
             <SectionHeading title="Reach out me" subTitle="Contact" />
-            <div className="contact-info">
-              <ul>
+            <div className="contact-info row">
+              <ul className="row">
                 {contactInfo.map((element, index) => (
-                  <li key={index} data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                  <li key={index} data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" className="col-lg-6">
                     <div className="icon">
-                      <Icon icon={`bi:${element.icon}`} />
+                      <Icon icon={`mdi:${element.icon}`} />
                     </div>
                     <div className="text">
                       <label>{element.title}</label>
@@ -83,18 +83,18 @@ const Contact = ({ data }) => {
                   </li>
                 ))}
               </ul>
-              <div className="google-map" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+              {/* <div className="google-map" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
                 <div className="ratio ratio-21x9">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.840107317064!2d144.955925!3d-37.817214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1520156366883"
                     allowFullScreen=""
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
-          <div className="col-lg-7 ps-xl-5">
-            <div className="contact-form bg-g" data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000">
+          {/* <div className="col-lg-12 ps-xl-12">
+            <div className="contact-form " data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000">
               <div className="contact-head">
                 <h4>{contactForm.title}</h4>
                 <p>{contactForm.text}</p>
@@ -177,7 +177,7 @@ const Contact = ({ data }) => {
                 </div>
               </form>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

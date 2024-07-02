@@ -18,10 +18,10 @@ const Home = () => {
         <Hero data={heroData} />
         <About data={aboutData} />
         <Experience data={experienceData} />
-        <Service data={serviceData} />
+        {/* <Service data={serviceData} /> */}
         <Portfolio data={portfolioData} />
-        <Testimonial data={sliderData} />
-        <Blog data={blogData} />
+        {/* <Testimonial data={sliderData} /> */}
+        {/* <Blog data={blogData} /> */}
         <Contact data={contactData} />
         <Footer data={footerData} />
       </main>

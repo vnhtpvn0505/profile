@@ -26,7 +26,7 @@ const About = ({ data }) => {
               <h3>{name}</h3>
               <p>{perser(designation)}</p>
               <div className="btn-bar">
-                <a className="px-btn" href={resumeCv} download>
+                <a className="px-btn" href={resumeCv} target="_blank download">
                   Download CV <Icon icon="bi-download" />
                 </a>
               </div>
@@ -59,7 +59,6 @@ const About = ({ data }) => {
                 ))}
               </div>
               <blockquote>
-                <Icon icon="fa6-solid:quote-left" />
                 <p>{note}</p>
               </blockquote>
             </div>
