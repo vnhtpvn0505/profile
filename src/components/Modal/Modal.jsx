@@ -24,7 +24,7 @@ const Modal = ({ img, title, date, subTitle, paraList, modalClose }) => {
               <p key={index}>{element.text}</p>
             ))
             }
-            <div className="blog-meta">
+            {/* <div className="blog-meta">
               <label>Share</label>
               <ul className="nav social-link">
                 {socialData.map((element, index) => (
@@ -35,7 +35,7 @@ const Modal = ({ img, title, date, subTitle, paraList, modalClose }) => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

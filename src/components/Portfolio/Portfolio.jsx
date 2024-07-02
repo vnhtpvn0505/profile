@@ -42,7 +42,7 @@ const Portfolio = ({ data }) => {
                         <a className="gallery-link" onClick={() => getData(element.ImgLink, element.title, element.subTitle, element.paragraphList)}>
                           <Icon icon="bi:arrow-up-right" />
                         </a>
-                        <a className="gallery-link" href={element.link} >
+                        <a className="gallery-link" href={element.link} target="_blank" >
                           <Icon icon="bi:globe" />
                         </a>
                         
