@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
 import SectionHeading from '../SectionHeading/SectionHeading';
+import perser from 'html-react-parser';
 
 const Service = ({ data }) => {
   return (
-    <section id="educations" className="section services-section bg-dark">
+    <section id="experience" className="section services-section bg-dark">
       <div className="container">
-        <SectionHeading title="My Studies" subTitle="Education" />
+        <SectionHeading title="My Experience" subTitle="Experience" />
         <div className="accordion accordion-flush" id="accordion_services">
           {data.map((element, index) => (
             <div
@@ -51,6 +52,7 @@ const Service = ({ data }) => {
                     <div className="col-sm-6 col-md-8">
                       <h3>{element.heading}</h3>
                       <div className="s-text">{element.text}</div>
+                      <p>{perser(element.description)}</p>
                     </div>
                   </div>
                 </div>

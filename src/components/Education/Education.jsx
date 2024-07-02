@@ -6,12 +6,12 @@ import { Icon } from "@iconify/react";
 const Experience = ({ data }) => {
   const { text, experience, resumeCv } = data;
   return (
-    <section  id= "experience" className="section experience-section bg-g">
+    <section  id= "education" className="section experience-section bg-g">
       <div className="container">
         <div className="row gy-5">
           <div className="col-lg-5">
             <div className="section-heading">
-              <SectionHeading title="My Experience" subTitle="Experience" />
+              <SectionHeading title="My Studies" subTitle="Education" />
               <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">{text}</p>
               <div className="btn-bar" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                 <a href={resumeCv} className="px-btn dark" target="_blank" download>

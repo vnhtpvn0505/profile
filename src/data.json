@@ -73,52 +73,51 @@
     "resumeCv": "https://drive.google.com/file/d/1q76earbvTePlQQI7cmaYtuCbJ_EyvgaJ/view?usp=sharing",
     "experience": [
       {
-        "start": "Jan 2024",
-        "end": "Present",
-        "title": "UI/UX Design",
-        "subtitle": "Freelancer"
+        "start": "2014",
+        "end": "2017",
+        "title": "FPT-Greenwich",
+        "subtitle": "Bachelor's in Computer Science"
       },  
-      {
-        "start": "Jun 2022",
-        "end": "Jan 2024",
-        "title": " Product Design, Bussiness Analytics",
-        "subtitle": "Luckytech"
-      },
+      
       {
         "start": "Jun 2021",
         "end": "Nov 2021",
-        "title": "Junior Web Designer",
-        "subtitle": "Time Universal"
+        "title": "Arena Multimedia",
+        "subtitle": "Advanced Diploma in Multimedia"
       },
       {
         "start": "2017",
         "end": "2020",
-        "title": "Sofware Engineer  ",
-        "subtitle": "Kyanon Digital"
+        "title": "Certificate",
+        "subtitle": "Freecodecamp"
       }
     ]
   },
   "serviceData": [
     {
-      "title": "FPT- Greenwich",
-      "heading": "Bachelor's in Computer Science",
+      "title": "Luckytech",
+      "heading": "UI/UX Design, Product Design, Business Analytics",
       "triger": "One",
       "imgLink": "/images/services-1.jpg",
-      "text": "2014-2017"
+      "text": " Jun 2022- Jan 2024",
+      "description": "- Research & design UX,  write document for team developments  product of company & customers. <br/> - Design UI/UX  for apps blockchain, DApp &  Game-Fi , ect... <br /> - Support write document, guiline & BA document product for team development"
     },
     {
-      "title": "Arena Multimedia",
-      "heading": "Advanced Diploma in Multimedia",
+      "title": "Time Universal",
+      "heading": "Web Designer",
       "triger": "Two",
       "imgLink": "/images/services-2.jpg",
-      "text": "2020-2023"
+      "text": "Jun 2021- Dec 2021",
+      "description": "Design web layout & UX Research for customer of company with many different fields : Real Estate, Education, Travel, Ecommerce, ect..."
+
     },
     {
-      "title": "Certificate",
-      "heading": "Freecodecame",
+      "title": "Kyanon Digital",
+      "heading": "Software Engineer",
       "triger": "Three",
       "imgLink": "/images/services-2.jpg",
-      "text": "Responsive Web Design, Front End Development Libraries. "
+      "text": "Dec 2016 - May 2020",
+      "description": "Development for mobile application project as required of company & custome with Android, iOS, React-native, Flutter..."
     }
     
   ],
