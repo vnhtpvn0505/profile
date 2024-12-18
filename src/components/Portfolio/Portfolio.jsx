@@ -45,7 +45,6 @@ const Portfolio = ({ data }) => {
                         <a className="gallery-link" href={element.link} target="_blank" >
                           <Icon icon="bi:globe" />
                         </a>
-                        
                       </div>
                     </div>
                   </div>
